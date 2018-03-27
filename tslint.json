@@ -1,14 +1,14 @@
-{
-  "extends": [
-    "tslint:latest",
-    "tslint-config-prettier"
-  ],
-  "rules": {
-     "semicolon": [true, "never"],
-     "no-console": false,
-     "no-namespace": false,
-     "radix": false,
-     "object-literal-sort-keys": false,
-     "prefer-for-of": false
-  }
-}
+//{
+//  "extends": [
+//    "tslint:latest",
+//    "tslint-config-prettier"
+//  ],
+//  "rules": {
+//     "semicolon": [true, "never"],
+//     "no-console": false,
+//     "no-namespace": false,
+//     "radix": false,
+//     "object-literal-sort-keys": false,
+//     "prefer-for-of": false
+//  }
+//}
