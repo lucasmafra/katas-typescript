@@ -24,7 +24,7 @@ describe('BookOrder', () => {
 
   it('should return the price of the Book itself for one book', () => {
     order(item(Books.HP1,1))
-    expect(bookOrder.getTotalCost()).toBe(BOOK_UNIT_COST)
+    expect(bookOrder.getTotalCost()).toBe(1*BOOK_UNIT_COST)
   })
 
   it('should return two times the Book unit cost for buying two identical books',  () => {
@@ -52,9 +52,9 @@ describe('BookOrder', () => {
     expect(bookOrder.getTotalCost()).toBe(5*BOOK_UNIT_COST*(1 - 0.25))
   })
 
-  it('should apply discount only for distinct books', () => {
+  it('should only apply discount to distinct books', () => {
     order(item(Books.HP1,2), item(Books.HP2, 1), item(Books.HP3, 1))
-    expect(bookOrder.getTotalCost()).toBe(32 - 0.1*32)
+    expect(bookOrder.getTotalCost()).toBe(3*BOOK_UNIT_COST*(1 - 0.1) + 1*BOOK_UNIT_COST)
   })
 
 })

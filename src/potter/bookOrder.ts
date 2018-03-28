@@ -11,14 +11,13 @@ export class BookOrder {
   }
 
   public addItem(newBook: Books, amount: number): void {
-    if (this.isNewBook(newBook)) {
-      this.distinctBooks.push(newBook)
-    }
+    this.isNewBook(newBook) && this.distinctBooks.push(newBook)
     this.totalCost += this.BOOK_UNIT_COST * amount
   }
 
   private getDiscount() {
-      return this.BOOK_DISCOUNT_TABLE[this.distinctBooks.length]*this.totalCost
+    let distinctBooks = this.distinctBooks.length
+    return distinctBooks*this.BOOK_UNIT_COST*this.BOOK_DISCOUNT_TABLE[distinctBooks]
   }
 
   private isNewBook(newBook: Books) {
