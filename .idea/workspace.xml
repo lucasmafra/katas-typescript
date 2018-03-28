@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="490f5bbb-1f5c-4a79-b2da-895a788de703" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__tests__/potter/potter.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/potter/potter.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/potter/bookOrder.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__tests__/potter/potter.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/potter/potter.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/potter/potter.ts" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,14 +18,14 @@
     <favorites_list name="kata-typescript" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.44187838">
+    <splitter split-orientation="horizontal" split-proportion="0.4943335">
       <split-first>
         <leaf>
           <file leaf-file-name="potter.spec.ts" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/__tests__/potter/potter.spec.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="705">
-                  <caret line="56" selection-start-line="56" selection-end-line="56" />
+                <state relative-caret-position="396">
+                  <caret line="37" column="4" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
@@ -36,11 +34,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="potter.ts" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/potter/potter.ts">
+          <file leaf-file-name="bookOrder.ts" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/potter/bookOrder.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+                <state relative-caret-position="142">
+                  <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
                 </state>
               </provider>
             </entry>
@@ -59,7 +57,18 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>beforeall</find>
+      <find>&quot;HP2&quot;</find>
+      <find>&quot;HP5&quot;</find>
+      <find>PotterBooks</find>
+      <find>Book</find>
+      <find>different</find>
     </findStrings>
+    <replaceStrings>
+      <replace>PotterBooks.HP5</replace>
+      <replace>Book</replace>
+      <replace>Books</replace>
+      <replace>distinct</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,8 +83,9 @@
         <option value="$PROJECT_DIR$/__tests__/bowling/bowling.spec.ts" />
         <option value="$PROJECT_DIR$/__tests__/potter/potter.ts" />
         <option value="$PROJECT_DIR$/tslint.json" />
-        <option value="$PROJECT_DIR$/__tests__/potter/potter.spec.ts" />
         <option value="$PROJECT_DIR$/src/potter/potter.ts" />
+        <option value="$PROJECT_DIR$/src/potter/bookOrder.ts" />
+        <option value="$PROJECT_DIR$/__tests__/potter/potter.spec.ts" />
       </list>
     </option>
   </component>
@@ -102,7 +112,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,8 +145,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -146,7 +156,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="TypeScript" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/__tests__/potter/potter.spec.ts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="$PROJECT_DIR$/node_modules/tslint" />
@@ -285,86 +295,87 @@
       <workItem from="1522092445768" duration="7018000" />
       <workItem from="1522113411591" duration="5737000" />
       <workItem from="1522162892331" duration="11690000" />
+      <workItem from="1522196632399" duration="3669000" />
+      <workItem from="1522243398055" duration="3383000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PotterTest - 2018.03.27 at 13h 57m 59s.xml">
-      <configuration name="PotterTest" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="PotterTest - 2018.03.27 at 13h 58m 14s.xml">
-      <configuration name="PotterTest" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="PotterTest - 2018.03.27 at 13h 58m 25s.xml">
-      <configuration name="PotterTest" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="PotterTest - 2018.03.27 at 14h 17m 11s.xml">
-      <configuration name="PotterTest" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="PotterTest - 2018.03.27 at 14h 24m 07s.xml">
-      <configuration name="PotterTest" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="PotterTest - 2018.03.27 at 14h 29m 08s.xml">
-      <configuration name="PotterTest" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="PotterTest - 2018.03.27 at 14h 47m 06s.xml">
-      <configuration name="PotterTest" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="PotterTest - 2018.03.27 at 14h 47m 47s.xml">
-      <configuration name="PotterTest" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="PotterTest - 2018.03.27 at 14h 48m 52s.xml">
-      <configuration name="PotterTest" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
     <history-entry file="PotterTest - 2018.03.27 at 14h 55m 29s.xml">
+      <configuration name="PotterTest" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="PotterTest - 2018.03.28 at 10h 37m 39s.xml">
+      <configuration name="PotterTest" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="PotterTest - 2018.03.28 at 10h 59m 22s.xml">
+      <configuration name="PotterTest" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="PotterTest - 2018.03.28 at 11h 06m 44s.xml">
+      <configuration name="PotterTest" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="PotterTest - 2018.03.28 at 11h 06m 50s.xml">
+      <configuration name="PotterTest" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="PotterTest - 2018.03.28 at 11h 06m 54s.xml">
+      <configuration name="PotterTest" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="PotterTest - 2018.03.28 at 11h 09m 12s.xml">
+      <configuration name="PotterTest" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="PotterTest - 2018.03.28 at 11h 14m 31s.xml">
+      <configuration name="PotterTest" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="PotterTest - 2018.03.28 at 11h 15m 41s.xml">
+      <configuration name="PotterTest" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="PotterTest - 2018.03.28 at 11h 19m 15s.xml">
       <configuration name="PotterTest" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24445000" />
+    <option name="totallyTimeSpent" value="31497000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info id="Image Layers" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.32959184" />
-      <window_info anchor="right" id="Maven Projects" order="1" />
+      <window_info anchor="right" id="Maven Projects" order="2" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.32848838" />
-      <window_info anchor="bottom" id="Terminal" order="5" />
-      <window_info id="Capture Tool" order="1" />
-      <window_info anchor="bottom" id="TypeScript" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="6" weight="0.18860662" />
-      <window_info anchor="right" id="Database" order="2" />
-      <window_info id="Learn" order="4" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info id="UI Designer" order="0" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="5" side_tool="true" weight="0.32991913" />
-      <window_info anchor="bottom" auto_hide="true" id="Debug" internal_type="SLIDING" order="9" type="SLIDING" weight="0.42755103" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.155" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info anchor="bottom" id="TypeScript" order="4" />
+      <window_info id="Designer" order="4" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18834323" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" weight="0.32991913" />
+      <window_info anchor="bottom" id="Debug" internal_type="SLIDING" order="3" weight="0.42755103" />
+      <window_info anchor="bottom" id="Messages" order="5" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="10" />
+      <window_info anchor="bottom" id="Message" order="9" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="3" />
-      <window_info anchor="right" id="Commander" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="0" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.32848838" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="TypeScript" order="2" />
-      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.32848838" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="0" />
@@ -388,6 +399,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="7" />
       <window_info anchor="bottom" auto_hide="true" id="Debug" internal_type="SLIDING" order="9" type="SLIDING" weight="0.42755103" />
     </layout-to-restore>
   </component>
@@ -406,6 +418,34 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/__tests__/potter/potter.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/potter/bookOrder.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__tests__/potter/potter.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/potter/bookOrder.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/__tests__/bowling/bowling.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -426,12 +466,6 @@
           <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bowling/bowling.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.vscode/settings.json">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.vscode/launch.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -468,13 +502,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@types/jest/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2484">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/jest/index.d.ts" />
     <entry file="file://$PROJECT_DIR$/__tests__/bowling/bowling.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -489,16 +517,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/potter/potter.ts/potter.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" lean-forward="true" selection-end-line="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/potter/potter.ts/potter.ts" />
     <entry file="file://$PROJECT_DIR$/tslint.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -506,17 +525,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/__tests__/potter/potter.spec.ts">
+    <entry file="file://$PROJECT_DIR$/src/potter/bookOrder.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="142">
+          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/potter/potter.ts">
+    <entry file="file://$PROJECT_DIR$/__tests__/potter/potter.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        <state relative-caret-position="396">
+          <caret line="37" column="4" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
         </state>
       </provider>
     </entry>
