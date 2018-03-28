@@ -10,8 +10,8 @@ export class BookOrder {
     return this.totalCost - discount
   }
 
-  public addItem(newBook: Books, amount: number): void {
-    this.isNewBook(newBook) && this.distinctBooks.push(newBook)
+  public addItem(book: Books, amount: number): void {
+    this.isNewBook(book) && this.distinctBooks.push(book)
     this.totalCost += this.BOOK_UNIT_COST * amount
   }
 
@@ -20,8 +20,8 @@ export class BookOrder {
     return distinctBooks*this.BOOK_UNIT_COST*this.BOOK_DISCOUNT_TABLE[distinctBooks]
   }
 
-  private isNewBook(newBook: Books) {
-    return !this.distinctBooks.find(book => book === newBook)
+  private isNewBook(book: Books) {
+    return !this.distinctBooks.find(b => book === b)
   }
 
   private BOOK_DISCOUNT_TABLE: { [key: number]: number } = {
